@@ -87,7 +87,7 @@ Mersedes.prototype.sayYea = function(){
 }
 var m5 = new BMW("m5", " e-class", 2015, "black", 200, 100, 15);
 var lada = new Lada("lada", "kalina", 2008, "green", 120, 60, 12);
-var mers = new Mersedes("Mersedes", "E60 AMG", 2014, "red", 225, 50, 20)
+var mers = new Mersedes("Mersedes", "E60 AMG", 2014, "red", 225, 50, 20) 
 
 
 
