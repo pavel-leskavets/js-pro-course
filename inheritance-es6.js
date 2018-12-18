@@ -11,7 +11,6 @@ this.fuelConsumption = fuelConsumption || 10;
 }
 getFullName(){
 return this.name + " " + this.model
-
 	
 }
 getAge(){
@@ -71,7 +70,7 @@ super(name, model, year, color, maxSpeed, fuelCapacity, fuelConsumption);
 	}
 	
 
-penBottom(currentSpeed) {
+openBottom(currentSpeed) {
 	if(currentSpeed > 100) {
 		this.bottom = true;
 		alert("Now the car will be left without a bottom")
