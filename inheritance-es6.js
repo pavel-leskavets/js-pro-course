@@ -12,6 +12,7 @@ this.fuelConsumption = fuelConsumption || 10;
 getFullName(){
 return this.name + " " + this.model
 
+	
 }
 getAge(){
 let date = new Date;
