@@ -96,3 +96,4 @@ sayYea(){
 const bmw = new BMW("m5", " e-class", 2015, "black", 200, 100, 15);
 const lada =  new Lada("lada", "kalina", 2008, "green", 120, 60, 12);
 const mers = new Mersedes("Mersedes", "E60 AMG", 2014, "red", 225, 50, 20) 
+
