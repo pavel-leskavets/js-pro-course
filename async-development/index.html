@@ -1,19 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<meta charset="UTF-8">
+	<title><%= htmlWebpackPlugin.options.title %></title>
+	
+	
 </head>
 <body>
-<input type="text">
-<input type="button" value="go">
+	<div class="wrapper" id="wrapper">
+		<div class="wrapper_text">
+			<h2 class="wrapper_header_2">&#127780; Weather PRO &#127780;</h2>
+			<h3 class="wrapper_header_3">&#11015; Please, enter city to know about weather there &#11015;</h3>
+			<h4class="wrapper_header_4" >&#9888; Use latin letters only &#9888;</h4>
+		</div>
+		<form id="mainForm" class="weather-form" > 
+			<input type="text" id="weatherField" class="weather-form-text_field" placeholder="Your city" name="weather" pattern="^[a-zA-Z]+$">
+			<button type="submit" class="weather-form-button">My location</button>
+		</form>
+		<form id="secondForm" > 
+			
+			<button type="submit" class="weather-form-button2">City</button>
+		</form>
+		<form onsubmit="clearTable();return false"  > 
+			
+			<button type="submit" class="weather-form-button2 aloha">Clear</button>
+		</form>
+		
+		<div id="weather_info" class="wrapper_text"></div>
 
-
-
-    <script src="script.js"></script>
+		<table id="table">
+			<thead>
+				<tbody></tbody>
+			</thead>
+		</table>
+	</div>
+	<script src="../dist/app.bundle.js"></script>
 </body>
 </html>
