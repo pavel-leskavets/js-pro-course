@@ -42,7 +42,7 @@
 
 }
 .second {
-	background-color: rgb(5, 85, 5);
+	background-color: green;
 	display: flex;
 	justify-content: center;
 	align-items: center;
