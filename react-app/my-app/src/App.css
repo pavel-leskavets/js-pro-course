@@ -1,0 +1,71 @@
+.body {
+	display: flex;
+	justify-content: space-around;
+}
+.main {
+	width: 20%;
+	height: 400px;
+	display: flex;
+	align-content: space-between;
+	justify-content: center;
+	border: 2px solid gray;
+	border-radius: 2%;
+	
+	font-size: 120px;
+	margin: 0;
+	padding: 0;
+}
+.text {
+	position: absolute;
+	display: flex;
+	margin-top: 80px;
+}
+.bottom {
+	display: flex;
+	width: 390px;
+	height: 130px;
+
+	
+	justify-content: space-around;
+	align-items: flex-end;
+	margin-top: 270px;
+
+	
+}
+
+.second, .third, .fourth {
+
+	width: 85px;
+	height: 130px;
+	opacity: .8;
+	border: 1px solid white;
+
+}
+.second {
+	background-color: green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.third {
+	background-color: yellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fourth{
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.image {
+	width: 50px;
+	height: 50px;
+	
+}
+.second:hover, .third:hover, .fourth:hover {
+	opacity: 1;
+	border: none;
+	cursor: pointer;
+}
